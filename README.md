@@ -1,10 +1,10 @@
-#Python Flappy Bird Ai
+<h1>Python Flappy Bird Ai</h1>
 
 Flappy Bird AI Using Neural Network
 
 ---
 
-##Python Modules:
+<h2>Python Modules:</h2>
 
 Pygame- to build the game
 
