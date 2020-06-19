@@ -279,7 +279,7 @@ def main(genomes, config):
                 nets.pop(x)
                 ge.pop(x)
         
-        if stop and score > 50:
+        if stop and score > 10:
             pygame.quit()
             break
         
@@ -303,7 +303,7 @@ def run(config_path):
     
     if train:
         winner = p.run(main,50)
-        print('Model Trained!')
+        print('Model Trained Successfully!')
     
     else:
         
@@ -314,6 +314,7 @@ def run(config_path):
             
             genomes = [(1, genome)]
             main(genomes, config) # run the game with the best genome
+            pygame.quit()
         
         else:
             print('Trained Neural Network File Doesn\'t Exist!')
