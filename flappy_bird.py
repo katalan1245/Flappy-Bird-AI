@@ -278,7 +278,7 @@ def main(genomes, config):
                 nets.pop(x)
                 ge.pop(x)
         
-        if stop and score > 10:
+        if stop and score > 50:
             pygame.quit()
             break
         
