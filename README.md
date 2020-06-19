@@ -1,11 +1,21 @@
-<h1>Python Flappy Bird Ai</h1>
+# Python Flappy Bird AI
 
-Flappy Bird AI Using Neural Network
+AI playing flappy bird using neural network
 
----
+# Instructions
 
-<h2>Python Modules:</h2>
+1. Install the requirements modules by
 
-Pygame- to build the game
+   *pip install -r requirements.txt*
 
-Neat- for the Artificial Inteligence
+2. Run *flappy_bird.py*
+
+3. Choose one of the options that will be displayed
+
+4. Enjoy The Game!
+
+# Python Modules
+
+- PyGame to build the flappy bird game
+
+- NEAT for the AI that plays the game
