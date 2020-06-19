@@ -4,7 +4,6 @@ import os
 import random
 import pickle
 from sys import exit
-from time import sleep
 
 pygame.font.init() # font init
 
