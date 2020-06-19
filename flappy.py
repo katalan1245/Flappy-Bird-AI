@@ -339,6 +339,7 @@ def option():
     
     if n == '1':
         return True, False
+    
     elif n == '2':
         return True, True
     
